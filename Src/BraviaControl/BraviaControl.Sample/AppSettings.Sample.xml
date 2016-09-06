@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<appSettings>
+  <add key="TvHostname" value="192.168.1.1"/>
+  <add key="ClientId" value="{5621180F-3AAC-4619-BB64-D849DCB30B56}" />
+</appSettings>
