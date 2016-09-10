@@ -1,15 +1,15 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-    <id>$id$</id>
+    <id>BraviaControl</id>
     <version>$version$</version>
-    <title>$title$</title>
-    <authors>$author$</authors>
-    <owners>$author$</owners>
+    <title>BraviaControl</title>
+    <authors>Mayuki Sawatari</authors>
+    <owners>Mayuki Sawatari</owners>
     <licenseUrl>https://github.com/mayuki/BraviaControl/blob/master/LICENSE</licenseUrl>
     <projectUrl>https://github.com/mayuki/BraviaControl/</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>$description$</description>
+    <description>Sony BRAVIA remote control API client for .NET</description>
     <releaseNotes>Initial Release</releaseNotes>
     <copyright>Copyright 2016 Mayuki Sawatari</copyright>
     <tags>BRAVIA API</tags>
