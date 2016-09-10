@@ -1,11 +1,16 @@
 # BraviaControl
 Sony BRAVIA remote control API client for .NET
 
-# Requirement
-- .NET Framework 4.6
-
 # Supported Device
 - Sony BRAVIA 4K (2015) / Android TV
+
+# Client Requirement
+- .NET Framework 4.6
+
+# Install
+```
+Install-Package BraviaControl
+```
 
 # Samples
 - Console Application: Src/BraviaControl/BraviaControl.Sample
