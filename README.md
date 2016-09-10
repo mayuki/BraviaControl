@@ -20,25 +20,25 @@ Install-Package BraviaControl
 ## 1. Create a API client.
 ```csharp
 var client = new BraviaControlClient(
-        "Your TV IP Address",
+        "Your BRAVIA IP Address",
         "ClientID (ex. GUID)",
-        $"{Environment.MachineName} (LINQPad)", // specify friendly "display" name on Television
+        $"{Environment.MachineName} (LINQPad)", // specify friendly "display" name on BRAVIA
         "" // AuthKey. If the client isn't authorized, you can pass empty string.
     );
 ```
 
-## 2. Register your client to Television: Request PIN code
+## 2. Register your client to BRAVIA: Request PIN code
 ```csharp
 await client.RequestPinAsync();
 ```
 
-## 3. Register your client to Television: Input and send PIN code
+## 3. Register your client to BRAVIA: Input and send PIN code
 ```csharp
 var pinCode = Console.ReadLine();
 var authKey = await client.RegisterAsync(pinCode); // You can store AuthKey for next time use.
 ```
 
-## 4. Send IRCC (Keycode)
+## 4. Send IRCC (Keycode) to BRAVIA
 ```csharp
 await client.SendIrccAsync(RemoteControllerKeys.TvPower); // TV Power Button (On/Off)
 await client.SendIrccAsync(RemoteControllerKeys.VolumeUp); // Volume Up
@@ -46,7 +46,7 @@ await client.SendIrccAsync(RemoteControllerKeys.Confirm); // Same as "Enter Butt
 await client.SendIrccAsync(RemoteControllerKeys.Return); // Same as "Back Button"
 ```
 
-## 5. Get the television's information
+## 5. Get the BRAVIA's information
 ```csharp
 // Power status
 await client.System.GetPowerStatusAsync();
