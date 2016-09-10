@@ -6,11 +6,11 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("BraviaControl")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Sony BRAVIA remote control API client for .NET")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Mayuki Sawatari")]
 [assembly: AssemblyProduct("BraviaControl")]
-[assembly: AssemblyCopyright("Copyright ©  2016")]
+[assembly: AssemblyCopyright("Copyright © 2016 Mayuki Sawatari")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

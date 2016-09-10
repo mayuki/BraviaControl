@@ -53,6 +53,7 @@
     <Compile Include="RemoteControllerKeys.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="BraviaControl.nuspec" />
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
