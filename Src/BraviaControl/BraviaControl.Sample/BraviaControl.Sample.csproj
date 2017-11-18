@@ -51,16 +51,16 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BraviaControl\BraviaControl.csproj">
-      <Project>{d3bdf748-3c01-4246-b455-007f377a20dc}</Project>
-      <Name>BraviaControl</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="AppSettings.Sample.xml">
       <SubType>Designer</SubType>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BraviaControl\BraviaControl.csproj">
+      <Project>{8b1e8fa7-a6c1-4adb-8704-aad1df86d214}</Project>
+      <Name>BraviaControl</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
